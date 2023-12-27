@@ -1,0 +1,126 @@
+/* Watched  */
+.watchedListContainer {
+  margin-top: 20px;
+}
+
+.watchedItem {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.watchedPoster {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.watchedDetails {
+  flex: 1;
+}
+
+.watchedDetails h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.watchedDetails p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media screen and (min-width: 600px) {
+  .watchedItem {
+    flex-basis: calc(33.333% - 20px);
+  }
+}
+
+
+/* Watchlist */
+.watchlistContainer {
+  margin-top: 20px;
+}
+
+.watchlistItem {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.watchlistPoster {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.watchlistDetails {
+  flex: 1;
+}
+
+.watchlistDetails h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.watchlistDetails p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media screen and (min-width: 600px) {
+  .watchlistItem {
+    flex-basis: calc(33.333% - 20px);
+  }
+}
+
+/* Watching */
+.watchingListContainer {
+  margin-top: 20px;
+}
+
+.watchingItem {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.watchingPoster {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.watchingDetails {
+  flex: 1;
+}
+
+.watchingDetails h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.watchingDetails p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media screen and (min-width: 600px) {
+  .watchingItem {
+    flex-basis: calc(33.333% - 20px);
+  }
+}

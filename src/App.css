@@ -1,0 +1,49 @@
+.navbar {
+  background-color: rgb(222, 158, 158);
+  display: flex;
+  justify-content: space-around;
+  height: 65px;
+  font-size: x-large;
+}
+
+.navbar div {
+  padding: 15px 20px;
+  font-size: 30px;
+}
+
+.navbar div:hover {
+  background-color: rgb(231, 215, 231);
+}
+
+.movieListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movieItem {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.movieDetails {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .movieItem {
+    width: 100%;
+  }
+}
+
+.controllers {
+  display: flex;
+  justify-content: space-between;
+}
